@@ -25,5 +25,6 @@
 
     <preference name="permissions" value="none"/>
     <!-- Says no permissions are required -->
+    <!-- http://docs.build.phonegap.com/en_US/2.9.0/configuring_features.md.html -->
 
 </widget>

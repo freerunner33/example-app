@@ -58,6 +58,8 @@ Here's a short tutorial that should get you writing apps in no time! YAAAAY
 			-This pushes all the files through to your github repository
 			-Check online if this worked on your github
 
+	3. For committing future changes, only do the add, commit and push commands
+
 
 // Phonegap time //
 
