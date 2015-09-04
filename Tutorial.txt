@@ -1,87 +1,118 @@
+Here's a short tutorial that should get you writing apps in no time! YAAAAY
+
+
 // Create the files and folders for your app on your computer first //
 
-1. Make a new folder on your computer
+	1. Make a new folder on your computer
 
-2. Open Sublime and open this folder
+	2. Open Sublime and open this folder
 
-3. Create js folder, css folder and images folder
+	3. Create js folder, css folder and images folder
 
-4. Create index.html and config.xml
-	-These files are in main folder
+	4. Create index.html and config.xml
+		-These files are in main folder
 
-5. Create style.css in css folder
-	-This file can be blank
+	5. Create style.css in css folder
+		-This file can be blank
 
-6. Create app.js and jquery.js in js folder
-	-copy code for latest jquery (found at https://code.jquery.com) into jquery.js
-	-get the minified one (removes spaces and stuff)
+	6. Create app.js and jquery.js in js folder
+		-copy code for latest jquery (found at https://code.jquery.com) into jquery.js
+		-get the minified one (removes spaces and stuff)
 
-7. Create icon.png file in image folder
-	-if you don't create an icon file, a default icon will be used
-	-maximim resolution is 512 x 512
+	7. Create icon.png file in image folder
+		-if you don't create an icon file, a default icon will be used
+		-maximim resolution is 512 x 512
+
 
 // Next create a github repository //
 
-1. Create account on https://github.com/ if you don't have an account
+	1. Create account on https://github.com/ if you don't have an account
 
-2. At top of home page, click 'Create New' -> 'New Repository'
+	2. At top of home page, click 'Create New' -> 'New Repository'
 
-3. Give your repository a name, and then click 'Create Repository'
+	3. Give your repository a name, and then click 'Create Repository'
+
 
 // Now link your repository to your local code //
 
-1. Open terminal or CMD and change directories to your folder
-	-The folder with index.html and all the other stuff
-	-To change directory type cd followed by names of folders
-		'cd /' will go to your top folder
-		'cd ..' goes up a folder
-		type 'ls' in terminal to view the folders and files within the current folder
-		type 'dir' on CMD
+	1. Open terminal or CMD and change directories to your folder
+		-The folder with index.html and all the other stuff
+		-To change directory type cd followed by names of folders
+			'cd /' will go to your top folder
+			'cd ..' goes up a folder
+			type 'ls' in terminal to view the folders and files within the current folder
+			type 'dir' on CMD
 
-2. Once you're at your main folder type the following
-	git init
-		-This initializes a git repository
-	git add -A
-		-This adds all folders and files
-	git commit -m "First commit. Woooo"
-		-This adds a message to your commit
-	git remote add origin https://github.com/freerunner33/example-app.git
-		-This links to your github repository
-		-Be sure to change the username and repository name
-			-Find these on your github repository page online
-	git push origin master
-		-This pushes all the files through to your github repository
-		-Check online if this worked
+	2. Once you're at your main folder type the following
+		git init
+			-This initializes a git repository
+		git add -A
+			-This adds all folders and files
+		git commit -m "First commit. Woooo"
+			-This adds a message to your commit
+		git remote add origin https://github.com/freerunner33/example-app.git
+			-This links to your github repository
+			-Be sure to change the username and repository name
+				-Find these on your github repository page online
+		git push origin master
+			-This pushes all the files through to your github repository
+			-Check online if this worked on your github
+
 
 // Phonegap time //
 
-1. Why phonegap? 
-	-If you know how to code a webpage, you can build the app in the same way, and have your app build
-		for iOS, Android or Windows OS platforms
-	-Web languages are easy for graphical stuff so just use Phonegap!
+	1. Why phonegap? 
+		-If you know how to code a webpage, you can build the app in the same way, and have your app build
+			for iOS, Android or Windows OS platforms
+		-Web languages are easy for graphical stuff so just use Phonegap!
 
-2. Sign up or sign in somehow on http://build.phonegap.com/
+	2. Sign up or sign in somehow on http://build.phonegap.com/
 
-3. At your home page click the '+ new app' button
+	3. At your home page click the '+ new app' button
 
-4. Go find your github link thing and paste it in the box on Phonegap
-	-https://github.com/freerunner33/example-app.git
-
-5. 
+	4. Go find your github link thing and paste it in the box on Phonegap
+		-https://github.com/freerunner33/example-app.git
 
 
+// Put code into files //
 
-8. View the config.xml file on build.phonegap.com under Config-The Basics
-	-http://docs.build.phonegap.com/en_US/configuring_basics.md.html
+	1. For the config.xml go online to see starting template at build.phonegap.com under Config-The Basics
+		-http://docs.build.phonegap.com/en_US/configuring_basics.md.html
 
-7. Change id, add target OS and modify other fields of config
-8. Add simple html code to index html. Be sure to link style sheets, js files as well as phonegap.js
-	even though you don't have this file
-9. Open terminal or CMD and change directory to this folder
-10. On github create a new repository
-11. git init 
-	to create a repository
-12. git add -A 
-	to add all files to repository
-13. git remote add origin https://github.com/freerunner33/example-app.git
-	replace with your repository url found on github
+	2. Change id, add target OS and modify other fields of the config
+		-See my example config.xml
+
+	3. Open up index.html and fill in with basic html code
+		-Add headers and basic text elements
+		-Important in head add the following line
+			<meta name='viewport' content='width=device-width, initial-scale=1'>
+		-Also make sure to link in your style sheet in head
+		-At bottom of body make sure to link the following js files
+			app.js, jquery.js, phonegap.js
+			-phonegap.js is necessary to link, but you do not write the file
+
+
+// Build your code to an app //
+
+	1. Navigate back to your home page on Phonegap and under the app you created, click 'Ready to Build'
+
+	2. Wait a few seconds and the app will appear built at the bottom
+
+	3. Download the app in any of the following ways
+		1. Navigate to https://build.phonegap.com/apps/
+			Click your app, then download onto your phone
+		2. Download app onto your computer and move file onto phone
+		3. Use QR code scanner to scan QR code and obtain download
+
+	4. Once downloaded you should open it on your phone. You might run into walls here:
+		-Install blocked: For security, your phone is set to block installation....
+			-Go to your phone's security settings and allow installation of apps from sources
+				other than the Play Store
+		-Any other issues, please check your code for errors. If you open index.html in a browser, it
+			should display in the same way that it would on your phone, just bigger. This is a good 
+			test of your code
+
+
+Any questions, comments, concerns just contact me in any form and I'll get back to you
+
+Have fun!

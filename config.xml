@@ -23,4 +23,7 @@
     <icon src="images/icon.png"/>
     <!-- Max size 512x512 -->
 
+    <preference name="permissions" value="none"/>
+    <!-- Says no permissions are required -->
+
 </widget>
