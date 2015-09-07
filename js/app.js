@@ -345,7 +345,18 @@ var schedule = [
 
 var week = {0: 'Sunday', 1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Thursday', 5: 'Friday', 6: 'Saturday'}
 
-$(document).ready(function() {
+// $(document).ready(function() {
+// 	var day = (new Date()).getDay()
+
+// 	getSchedule(day)
+
+// 	$('h1').on('click', function() {
+// 		day = (day + 1) % 7
+// 		getSchedule(day)
+// 	})
+// })
+
+document.addEventListener('deviceready', function() {
 	var day = (new Date()).getDay()
 
 	getSchedule(day)
@@ -354,7 +365,7 @@ $(document).ready(function() {
 		day = (day + 1) % 7
 		getSchedule(day)
 	})
-})
+}, false)
 
 function getSchedule(day) {
 	str = '<h1>' + week[day] + '</h1>'
