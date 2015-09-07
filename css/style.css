@@ -1,1 +1,23 @@
-style.css
+body {
+	border: 1px solid #333;
+	background-color: #222;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(0, 200, 200);
+	padding: 0.5em;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 300;
+	background-color: #222;
+	color: rgb(0, 255, 0);
+	margin: 0.5em;
+}
+
+h3 {
+	margin: 0.5em;
+}
+
+li {
+	margin-left: 0.5em;
+}

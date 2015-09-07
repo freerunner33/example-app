@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.noah.example"
+        id          = "com.noah.schedule"
         versionCode = "10" 
         version     = "1.0.0" >
     <!-- Should change id to com.app.noah or something (backwards url) -->
@@ -10,10 +10,10 @@
     <gap:platform name='android'/>
     <!-- This is for developing for android, can look online for other OSs -->
 
-    <name>Example</name>
+    <name>Schedule</name>
 
     <description>
-        An example app to help build apps.
+        Simple app to display my daily schedule
     </description>
 
     <author href="https://noahthomas.us/" email="007noahthomas@gmail.com">
