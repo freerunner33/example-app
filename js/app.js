@@ -361,7 +361,7 @@ document.addEventListener('deviceready', function() {
 
 	getSchedule(day)
 
-	$('h1').on('click', function() {
+	$('body').on('click', 'h1', function() {
 		day = (day + 1) % 7
 		getSchedule(day)
 	})
@@ -377,3 +377,4 @@ function getSchedule(day) {
 	})
 	$('body').html(str)
 }
+
