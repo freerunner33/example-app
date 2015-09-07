@@ -365,6 +365,12 @@ document.addEventListener('deviceready', function() {
 		day = (day + 1) % 7
 		getSchedule(day)
 	})
+
+	$('body').on('click', 'h3', function() {
+		if ($(this).css('color') == 'rgb(0, 200, 200)')
+			$(this).css('color', 'rgb(200, 0, 0)')
+	})
+
 }, false)
 
 function getSchedule(day) {
