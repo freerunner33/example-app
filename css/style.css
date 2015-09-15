@@ -18,6 +18,14 @@ h3 {
 	margin: 0.5em;
 }
 
+h3.done {
+	color: #555;
+}
+
 li {
 	margin-left: 0.5em;
+}
+
+li.done {
+	color: #555;
 }

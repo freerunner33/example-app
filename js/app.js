@@ -2,101 +2,48 @@ var schedule = [
 	[ // Sunday
 		{
 			heading: 'Breakfast',
-			elements:['Scrambled eggs', 'Apple with peanut butter']
-		},
-		{
-			heading: 'Homework',
-			elements:['9:00 - 11:00', 'EVL and water around 11:30']
-		},
-		{
-			heading: 'Beach or Hockey',
-			elements:['12:00 - 2:00']
+			elements: ['Water, apple w/ peanut butter, scrambled eggs']
 		},
 		{
 			heading: 'Lunch',
-			elements:['Steak, carrots, cucumbers']
-		},
-		{
-			heading: 'Homework',
-			elements:['3:00 - 4:30']
-		},
-		{
-			heading: 'Snack',
-			elements:['Carrots, cucumbers, yogurt']
-		},
-		{
-			heading: 'Homework',
-			elements:['5:00 - 6:30', 'EVL and water around 6:00']
-		},
-		{
-			heading: 'Cardio',
-			elements:['Run in valley', 'Take left path']
-		},
-		{
-			heading: 'Workout',
-			elements:['Manchester field', 'Core on bars']
-		},
-		{
-			heading: 'Post workout',
-			elements:['Water and shower']
+			elements: ['Water, greens, vegetables, 1 egg, chicken']
 		},
 		{
 			heading: 'Dinner',
-			elements:['Large salad', 'Tuna and 2 eggs']
+			elements: ['Water, steak, 1 egg, vegetables']
 		},
 		{
 			heading: 'Mass',
-			elements:['Founders Chapel at 9:00pm']
+			elements: ['7:00PM in Founders Chapel']
 		},
 		{
 			heading: 'Sleep',
-			elements:['Go to sleep by 11:00', 'Wake up at 8:00']
+			elements: ['Go to sleep by 11:00', 'Wake up at 8:00']
 		}
 	],
 	[	// Monday
 		{
+			heading: 'Classes',
+			elements: ['SOCI 101D: 9:05 - 10:00', 'COMP 465W: 11:15 - 12:10', 'MATH 311: 12:20 - 1:15']
+		},
+		{
 			heading: 'Breakfast',
-			elements: ['Two eggs with toast', 'Apple with peanut butter']
-		},
-		{
-			heading: 'SOCI 101D',
-			elements: ['9:05 - 10:00']
-		},
-		{
-			heading: 'Break',
-			elements: ['Work in Aroma\'s', 'Office hours']
-		},
-		{
-			heading: 'COMP 465W',
-			elements: ['11:15 - 12:10']
-		},
-		{
-			heading: 'MATH 311',
-			elements: ['12:20 - 1:15']
+			elements: ['Water, apple w/ peanut butter, 1 egg']
 		},
 		{
 			heading: 'Lunch',
-			elements: ['Steak, vegetables, BCAA']
-		},
-		{
-			heading: 'Workout',
-			elements: ['Cardio on treadmill', 'Triceps and Chest']
-		},
-		{
-			heading: 'Post workout',
-			elements: ['Dates', 'Protein shake', 'Shower']
-		},
-		{
-			heading: 'Homework',
-			elements: ['4:00 - 6:30', 'EVL and water around 6:00']
+			elements: ['Water, greens, vegetables, 1 egg, chicken']
 		},
 		{
 			heading: 'Dinner',
-			elements: ['Chicken, 2 eggs, small salad with tuna']
+			elements: ['Water, steak, 1 egg, vegetables']
 		},
 		{
-			heading: 'Homework',
-			elements: ['7:30 - 10:00']
+			heading: 'Workout - Upper Body',
+			elements: ['Bench Press: 3 x 6-10', 'Bent Over Row: 3 x 6-10',
+						'Military Press: 3 x 6-10', 'Barbell Shrug: 3 x 6-10',
+						'Close-Grip Bench: 3 x 6-10', 'Barbell Curl: 3 x 6-10',
+						'Barbell Wrist Curl: 3 x 6-10']
 		},
 		{
 			heading: 'Sleep',
@@ -105,98 +52,57 @@ var schedule = [
 	],
 	[	// Tuesday
 		{
+			heading: 'Classes',
+			elements: ['COMP 380: 9:15 - 10:35', 'THRS 114: 10:45 - 12:05', 'COMP 370: 2:30 - 3:50']
+		},
+		{
+			heading: 'Morning Run',
+			elements: ['Hill run - up and down hill twice']
+		},
+		{
 			heading: 'Breakfast',
-			elements:['Oatmeal with apple', '2 eggs']
-		},
-		{
-			heading: 'COMP 380',
-			elements:['9:15 - 10:35']
-		},
-		{
-			heading: 'THRS 114',
-			elements:['10:45 - 12:05']
+			elements: ['Water, apple w/ peanut butter, 1 egg']
 		},
 		{
 			heading: 'Lunch',
-			elements:['Small salad with one egg']
-		},
-		{
-			heading: 'COMP 370',
-			elements:['2:30 - 3:50']
-		},
-		{
-			heading: 'Snack',
-			elements:['Yogurt with granola, BCAA']
-		},
-		{
-			heading: 'Workout',
-			elements:['4:30 - 6:00', 'Cardio on treadmill', 'Biceps and Back']
-		},
-		{
-			heading: 'Post workout',
-			elements:['Dates', 'Protein shake', 'Shower']
-		},
-		{
-			heading: 'Homework',
-			elements:['Until 8:00']
+			elements: ['Water, greens, vegetables, 1 egg, chicken']
 		},
 		{
 			heading: 'Dinner',
-			elements:['Chicken, tuna, vegetables']
+			elements: ['Water, steak, 1 egg, vegetables']
 		},
 		{
-			heading: 'Homework',
-			elements:['Until 10:30']
+			heading: 'Workout - Lower Body',
+			elements: ['Squats: 3 x 6-10', 'Seated Calf Raise: 3 x 6-10',
+						'Stiff Leg Deadlift: 3 x 6-10', 'Standing Calf Raise: 3 x 6-10',
+						'DB Lunges: 3 x 6-10', 'Lying Leg Raises: 3 x 10-15',
+						'Incline Crunch: 3 x 10-15']
 		},
 		{
 			heading: 'Sleep',
-			elements:['Go to sleep by 11:00', 'Wake up at 8:00']
-		},
+			elements: ['Go to sleep by 11:00', 'Wake up at 8:00']
+		}
 	],
 	[	// Wednesday
 		{
+			heading: 'Classes',
+			elements: ['SOCI 101D: 9:05 - 10:00', 'COMP 465W: 11:15 - 12:10', 'MATH 311: 12:20 - 1:15']
+		},
+		{
 			heading: 'Breakfast',
-			elements: ['Two eggs with toast', 'Apple with peanut butter']
-		},
-		{
-			heading: 'SOCI 101D',
-			elements: ['9:05 - 10:00']
-		},
-		{
-			heading: 'Break',
-			elements: ['Work in Aroma\'s', 'Office hours']
-		},
-		{
-			heading: 'COMP 465W',
-			elements: ['11:15 - 12:10']
-		},
-		{
-			heading: 'MATH 311',
-			elements: ['12:20 - 1:15']
+			elements: ['Water, apple w/ peanut butter, 1 egg']
 		},
 		{
 			heading: 'Lunch',
-			elements: ['Steak, vegetables, BCAA']
-		},
-		{
-			heading: 'Workout',
-			elements: ['Cardio on treadmill', 'Legs and lower back']
-		},
-		{
-			heading: 'Post workout',
-			elements: ['Dates', 'Protein shake', 'Shower']
-		},
-		{
-			heading: 'Homework',
-			elements: ['4:00 - 6:30', 'EVL and water around 6:00']
+			elements: ['Water, greens, vegetables, 1 egg, chicken']
 		},
 		{
 			heading: 'Dinner',
-			elements: ['Chicken, 2 eggs, small salad with tuna']
+			elements: ['Water, steak, 1 egg, vegetables']
 		},
 		{
-			heading: 'Homework',
-			elements: ['7:30 - 10:00']
+			heading: 'Workout - rest day',
+			elements: ['Study and relax']
 		},
 		{
 			heading: 'Sleep',
@@ -205,98 +111,60 @@ var schedule = [
 	],
 	[ // Thursday
 		{
+			heading: 'Classes',
+			elements: ['COMP 380: 9:15 - 10:35', 'THRS 114: 10:45 - 12:05', 'COMP 370: 2:30 - 3:50']
+		},
+		{
+			heading: 'Morning Run',
+			elements: ['Sprint run - down to park twice']
+		},
+		{
 			heading: 'Breakfast',
-			elements:['Oatmeal with apple', '2 eggs']
-		},
-		{
-			heading: 'COMP 380',
-			elements:['9:15 - 10:35']
-		},
-		{
-			heading: 'THRS 114',
-			elements:['10:45 - 12:05']
+			elements: ['Water, apple w/ peanut butter, 1 egg']
 		},
 		{
 			heading: 'Lunch',
-			elements:['Small salad with one egg']
-		},
-		{
-			heading: 'COMP 370',
-			elements:['2:30 - 3:50']
-		},
-		{
-			heading: 'Snack',
-			elements:['Yogurt with granola, BCAA']
-		},
-		{
-			heading: 'Workout',
-			elements:['4:30 - 6:00', 'Cardio on treadmill', 'Chest - Bench']
-		},
-		{
-			heading: 'Post workout',
-			elements:['Dates', 'Protein shake', 'Shower']
-		},
-		{
-			heading: 'Homework',
-			elements:['Until 8:00']
+			elements: ['Water, greens, vegetables, 1 egg, chicken']
 		},
 		{
 			heading: 'Dinner',
-			elements:['Chicken, tuna, vegetables']
+			elements: ['Water, steak, 1 egg, vegetables']
 		},
 		{
-			heading: 'Homework',
-			elements:['Until 10:30']
+			heading: 'Workout - Upper Body',
+			elements: ['Incline Bench Press: 3 x 6-10', 'Pull-Up/Lat Pulldown: 3 x 6-10',
+						'DB Side Lateral: 3 x 6-10', 'DB Shrug: 3 x 6-10',
+						'Skull Crusher: 3 x 6-10', 'DB Curl: 3 x 6-10',
+						'DB Wrist Curl: 3 x 6-10']
 		},
 		{
 			heading: 'Sleep',
-			elements:['Go to sleep by 11:00', 'Wake up at 8:00']
-		},
+			elements: ['Go to sleep by 11:00', 'Wake up at 8:00']
+		}
 	],
 	[	// Friday
 		{
+			heading: 'Classes',
+			elements: ['SOCI 101D: 9:05 - 10:00', 'COMP 465W: 11:15 - 12:10', 'MATH 311: 12:20 - 1:15']
+		},
+		{
 			heading: 'Breakfast',
-			elements: ['Two eggs with toast', 'Apple with peanut butter']
-		},
-		{
-			heading: 'SOCI 101D',
-			elements: ['9:05 - 10:00']
-		},
-		{
-			heading: 'Break',
-			elements: ['Work in Aroma\'s', 'Office hours']
-		},
-		{
-			heading: 'COMP 465W',
-			elements: ['11:15 - 12:10']
-		},
-		{
-			heading: 'MATH 311',
-			elements: ['12:20 - 1:15']
+			elements: ['Water, apple w/ peanut butter, 1 egg']
 		},
 		{
 			heading: 'Lunch',
-			elements: ['Steak, vegetables, BCAA']
-		},
-		{
-			heading: 'Workout',
-			elements: ['Cardio on treadmill', 'Biceps and back - Calisthenics']
-		},
-		{
-			heading: 'Post workout',
-			elements: ['Dates', 'Protein shake', 'Shower']
-		},
-		{
-			heading: 'Homework',
-			elements: ['4:00 - 6:30', 'EVL and water around 6:00']
+			elements: ['Water, greens, vegetables, 1 egg, chicken']
 		},
 		{
 			heading: 'Dinner',
-			elements: ['Chicken, 2 eggs, small salad with tuna']
+			elements: ['Water, steak, 1 egg, vegetables']
 		},
 		{
-			heading: 'Homework',
-			elements: ['7:30 - 10:00']
+			heading: 'Workout - Upper Body',
+			elements: ['Deadlift: 3 x 6-10', 'Standing Calf Raise: 3 x 6-10',
+						'Leg Press: 3 x 6-10', 'Seated Calf Raise: 3 x 6-10',
+						'Leg Extension: 3 x 6-10', 'Leg Curl: 3 x 6-10',
+						'Lying Leg Raises 3 x 10-15', 'Incline Crunch: 3 x 10 - 15']
 		},
 		{
 			heading: 'Sleep',
@@ -305,40 +173,24 @@ var schedule = [
 	],
 	[	// Saturday
 		{
+			heading: 'Morning Run',
+			elements: ['Sprint run - down to park twice']
+		},
+		{
 			heading: 'Breakfast',
-			elements:['Scrambled eggs', 'Apple with peanut butter']
-		},
-		{
-			heading: 'Homework',
-			elements:['9:00 - 11:00', 'EVL and water around 11:30']
-		},
-		{
-			heading: 'Beach or pool',
-			elements:['12:00 - 2:00']
+			elements: ['Water, apple w/ peanut butter, scrambled eggs']
 		},
 		{
 			heading: 'Lunch',
-			elements:['Steak, carrots, cucumbers']
-		},
-		{
-			heading: 'Homework',
-			elements:['3:00 - 4:30']
-		},
-		{
-			heading: 'Snack',
-			elements:['Carrots, cucumbers, yogurt']
-		},
-		{
-			heading: 'Homework',
-			elements:['5:00 - 6:30', 'EVL and water around 6:00']
+			elements: ['Water, greens, vegetables, 1 egg, chicken']
 		},
 		{
 			heading: 'Dinner',
-			elements:['Large salad', 'Tuna and 2 eggs']
+			elements: ['Water, steak, 1 egg, vegetables']
 		},
 		{
 			heading: 'Sleep',
-			elements:['Go to sleep by 11:00', 'Wake up at 8:00']
+			elements: ['Go to sleep by 11:00', 'Wake up at 8:00']
 		}
 	]
 ]
@@ -350,9 +202,16 @@ var week = {0: 'Sunday', 1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Thursday
 
 // 	getSchedule(day)
 
-// 	$('h1').on('click', function() {
+// 	$('body').on('click', 'h1', function() {
 // 		day = (day + 1) % 7
 // 		getSchedule(day)
+// 	})
+
+// 	$('body').on('click', 'h3', function() {
+// 		$(this).toggleClass('done')
+// 	})
+// 	$('body').on('click', 'li', function() {
+// 		$(this).toggleClass('done')
 // 	})
 // })
 
@@ -367,10 +226,11 @@ document.addEventListener('deviceready', function() {
 	})
 
 	$('body').on('click', 'h3', function() {
-		if ($(this).css('color') == 'rgb(0, 200, 200)')
-			$(this).css('color', 'rgb(200, 0, 0)')
+		$(this).toggleClass('done')
 	})
-
+	$('body').on('click', 'li', function() {
+		$(this).toggleClass('done')
+	})
 }, false)
 
 function getSchedule(day) {
